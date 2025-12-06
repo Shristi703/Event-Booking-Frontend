@@ -28,11 +28,11 @@ const BookingForm = () => {
     setLoading(true);
 
     try {
-      const res = await axios.post(
-        "http://localhost:5000/api/bookings",
-        formData
-      );
 
+const res = await axios.post(
+  "https://event-booking-be82.onrender.com/api/booking",
+  formData
+);
       console.log(res.data);
       alert("🎉 Booking successful!");
 
