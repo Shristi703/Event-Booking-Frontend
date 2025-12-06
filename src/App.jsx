@@ -1,15 +1,15 @@
 import React from "react";
-import Navbar from "./components/Navbar";
-import Hero from "./components/Hero";
-import About from "./components/About";
-import Speakers from "./components/Speakers";
-import Partners from "./components/Partners";
-import Resources from "./components/Resources";
-import Schedule from "./components/Schedule";
-import Pricing from "./components/Pricing";
-import FAQ from "./components/FAQ";
-import Footer from "./components/Footer";
-import BookingForm from "./components/BookingForm";
+import Navbar from "./Components/Navbar";
+import Hero from "./Components/Hero";
+import About from "./Components/About";
+import Speakers from "./Components/Speakers";
+import Partners from "./Components/Partners";
+import Resources from "./Components/Resources";
+import Schedule from "./Components/Schedule";
+import Pricing from "./Components/Pricing";
+import FAQ from "./Components/FAQ";
+import Footer from "./Components/Footer";
+import BookingForm from "./Components/BookingForm";
 
 
 const App = () => {
